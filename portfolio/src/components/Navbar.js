@@ -32,7 +32,7 @@ export const NavBar = ()=>{
     <Navbar expand="lg" className={scrolled?"scrolled":""}>
     <Container>
       <Navbar.Brand href="#home" >React-Bootstrap</Navbar.Brand>
-      <img src={logo} alt="Logo"/>
+      <img className="logo" src={logo} alt="Logo"/>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
