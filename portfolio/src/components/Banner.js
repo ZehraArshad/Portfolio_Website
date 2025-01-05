@@ -55,13 +55,13 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                {/* <span className="tagline">Welcome to my Portfolio</span> */}
                 <h1>{`Hi! I'm Zehra, A`} <span className="txt-rotate" dataPeriod="1000" data-rotate={toRotate}><span className="wrap">{text}</span></span></h1>
                   <p>Data is more than numbers; it's a story waiting to be told. Hidden within every dataset are patterns that can 
                     shape decisions, inspire innovation, and transform the world. My journey as a data scientist is about uncovering 
                     those stories—digging deep into the raw, unfiltered noise to extract insights that matter. It's about connecting the 
                     dots, finding the unseen, and giving voice to the silent truths buried in data.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>
@@ -69,7 +69,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  {/* <img src={headerImg} alt="Header Img"/> */}
                 </div>}
             </TrackVisibility>
           </Col>

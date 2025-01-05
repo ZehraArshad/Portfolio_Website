@@ -31,26 +31,26 @@ export const NavBar = ()=>{
     return(
     <Navbar expand="lg" className={scrolled?"scrolled":""}>
     <Container>
-      <Navbar.Brand href="#home" >React-Bootstrap</Navbar.Brand>
-      <img className="logo" src={logo} alt="Logo"/>
+      <Navbar.Brand href="#home" ></Navbar.Brand>
+      {/* <img className="logo" src={logo} alt="Logo"/> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="#home" className={activeLink==='home'?'active navbar-link':'navbar-link'} onClick={()=>{onUpdateActiveLink('home')}}>
             Home</Nav.Link>
-          <Nav.Link href="#skills" className={activeLink==='skills'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
+          <Nav.Link href="#skills" className={activeLink==='skills'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('skills')}>Tools</Nav.Link>
           <Nav.Link href="#projects" className={activeLink==='projects'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
     
         </Nav>
         <span className="navbar-text">
             <div className="social-icon">
                 <a href="https://www.linkedin.com/in/zehraarshad/" target="_blank"><img src={navIcon1} alt="linkedin"/></a>
-                <a href="https://github.com/ZehraArshad" ><img src={github} alt=""/></a>
-                <a href="mailto:zehraarshadmulla@gmail.com" ><img src={mail} alt="email"/></a>
+                <a href="https://github.com/ZehraArshad" target="_blank"><img src={github} alt=""/></a>
+                <a href="mailto:zehraarshadmulla@gmail.com" target="_blank"><img src={mail} alt="email"/></a>
                 
 
             </div>
-            <button className="vvd" onClick={()=>console.log('connect')}><span>Let's Connect</span></button>
+            {/* <button className="vvd" onClick={()=>console.log('connect')}><span>Let's Connect</span></button> */}
             </span>
       </Navbar.Collapse>
     </Container>
