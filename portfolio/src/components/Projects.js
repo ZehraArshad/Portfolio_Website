@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import car from "../assets/img/car.png";
+import job from "../assets/img/jobs.png";
+import social from "../assets/img/socials.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,43 +11,26 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Sales Analysis",
-      description: "Data Analysis and Visualization",
-      imgUrl: projImg1,
-      url:"https://github.com/ZehraArshad/Data_Analysis/blob/main/README.md"
+      title: "Car Data Analysis",
+      description: "Excel Advanced Formulas",
+      imgUrl: car,
+      url:"https://github.com/ZehraArshad/Excel_Github/tree/main/Car_Data"
     },
 
     // i will what were the projects about and what actually were the insights
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      // url:"",
+      title: "Job Analysis Using SQL",
+      description: "SQL Joins and CTE",
+      imgUrl: job,
+      url:"https://github.com/ZehraArshad/sql/blob/main/README.md",
+  
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      // url:"",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-      // url:"",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      // url:"",
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      // url:"",
-    },
+      title: "Social Media Campaign Analysis",
+      description: "Data Cleaning and Visualization in Excel",
+      imgUrl: social,
+      url:"https://github.com/ZehraArshad/Excel_Github/tree/main/Social%20Media%20Campaign%20Data",
+    }
   ];
 
   return (
