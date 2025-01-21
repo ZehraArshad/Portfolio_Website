@@ -4,6 +4,8 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import car from "../assets/img/car.png";
 import job from "../assets/img/jobs.png";
 import social from "../assets/img/socials.png";
+import DA from "../assets/img/DA.png";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -30,6 +32,12 @@ export const Projects = () => {
       description: "Data Cleaning and Visualization in Excel",
       imgUrl: social,
       url:"https://github.com/ZehraArshad/Excel_Github/tree/main/Social%20Media%20Campaign%20Data",
+    },
+    {
+      title: "Excel Portfolio Project",
+      description: "Using Vlookups, Index Matching and Filter Functions",
+      imgUrl: DA,
+      url:"https://github.com/ZehraArshad/Excel_Github/tree/main/Excel%20Portfolio",
     }
   ];
 
