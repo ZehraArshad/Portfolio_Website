@@ -32,7 +32,7 @@ export const Achievement = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-ac wow zoomIn">
-              <h2>Achievments</h2>
+              <h2>Achievements</h2>
 
 
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
