@@ -5,6 +5,9 @@ import car from "../assets/img/car.png";
 import job from "../assets/img/jobs.png";
 import social from "../assets/img/socials.png";
 import DA from "../assets/img/DA.png";
+import treadmill from "../assets/img/market_research.png"
+
+import chatbot from "../assets/img/Chat_bot_amico.png"
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,6 +15,33 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+
+
+    
+    {
+      title: "Sentiment Analysis Chatbot",
+      description: "Sentiment Analyzer Chatbot Made Using DistilBert",
+      imgUrl: chatbot,
+      url:"https://github.com/ZehraArshad/Sentecare"
+    },
+
+    {
+      title: "Car Price Prediction",
+      description: "Regressor For Price Prediction",
+      imgUrl: car,
+      url:"https://github.com/ZehraArshad/Exploratory-Data-Analysis/tree/main/car_pred"
+    },
+
+
+    {
+      title: "AeroFit's Treadmill Analysis",
+      description: "Exploratory Data Analysis, Market Research",
+      imgUrl: treadmill,
+      url:"https://github.com/ZehraArshad/Exploratory-Data-Analysis/tree/main/Aerofit_Treadmill_Data"
+    },
+
+
+
     {
       title: "Car Data Analysis",
       description: "Excel Advanced Formulas",
